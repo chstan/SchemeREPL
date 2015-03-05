@@ -39,6 +39,8 @@ void repl() {
                         }
                         fflush(stdout);
                     }
+                } else {
+                    printf("Well that was easy.\n");
                 }
                 v_free(program);
             } else {
